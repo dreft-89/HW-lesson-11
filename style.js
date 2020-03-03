@@ -1,14 +1,14 @@
 let day = prompt('Write day');
-switch (day) {
-    case 'Monday':
-    case 'Tuesday':
-    case 'Wednesday':
-    case 'Thursday':
-    case 'Friday':
+switch (day.toUpperCase()) {
+    case 'MONDAY':
+    case 'TUESDAY':
+    case 'WEDNESDAY':
+    case 'THURSDAY':
+    case 'FRIDAY':
         alert('Working day');
         break;
-    case 'Saturday':
-    case 'Sunday':
+    case 'SATURDAY':
+    case 'SUNDAY':
         alert('Weekendy');
         break;
     default:
