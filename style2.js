@@ -4,7 +4,7 @@ if (days.toUpperCase() == 'MONDAY'
   || days.toUpperCase() == 'WEDNSDAY'
   || days.toUpperCase() == 'THURSDAY' 
   || days.toUpperCase() == 'FRIDAY') {  
-alert('Working day');
+    alert('Working day');
 } else if (days.toUpperCase() == 'SATURDAY'
   || days.toUpperCase() =='SUNDAY') {
     alert('Weekend');
